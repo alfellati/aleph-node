@@ -1,4 +1,4 @@
-FROM ubuntu:jammy-20220531
+FROM ubuntu:22.04
 
 RUN apt update && \
         apt install curl -y && \
