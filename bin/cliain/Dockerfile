@@ -1,4 +1,4 @@
-FROM ubuntu:jammy-20220531
+FROM ubuntu:jammy-20240627.1
 
 RUN apt update && \
     apt install wget -y && \
